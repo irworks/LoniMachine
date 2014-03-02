@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4ACB15E18C3AD2C00EF11E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ACB15D18C3AD2C00EF11E2 /* Foundation.framework */; };
+		F4ACB16018C3AD2C00EF11E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ACB15F18C3AD2C00EF11E2 /* CoreGraphics.framework */; };
+		F4ACB16218C3AD2D00EF11E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ACB16118C3AD2D00EF11E2 /* UIKit.framework */; };
+		F4ACB16818C3AD2D00EF11E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4ACB16618C3AD2D00EF11E2 /* InfoPlist.strings */; };
+		F4ACB16A18C3AD2D00EF11E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ACB16918C3AD2D00EF11E2 /* main.m */; };
+		F4ACB16E18C3AD2D00EF11E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ACB16D18C3AD2D00EF11E2 /* AppDelegate.m */; };
+		F4ACB17118C3AD2D00EF11E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4ACB16F18C3AD2D00EF11E2 /* Main.storyboard */; };
+		F4ACB17418C3AD2D00EF11E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ACB17318C3AD2D00EF11E2 /* ViewController.m */; };
+		F4ACB17618C3AD2D00EF11E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4ACB17518C3AD2D00EF11E2 /* Images.xcassets */; };
+		F4ACB17D18C3AD2D00EF11E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ACB17C18C3AD2D00EF11E2 /* XCTest.framework */; };
+		F4ACB17E18C3AD2D00EF11E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ACB15D18C3AD2C00EF11E2 /* Foundation.framework */; };
+		F4ACB17F18C3AD2D00EF11E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ACB16118C3AD2D00EF11E2 /* UIKit.framework */; };
+		F4ACB18718C3AD2D00EF11E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4ACB18518C3AD2D00EF11E2 /* InfoPlist.strings */; };
+		F4ACB18918C3AD2D00EF11E2 /* LoniMachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ACB18818C3AD2D00EF11E2 /* LoniMachineTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4ACB18018C3AD2D00EF11E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4ACB15218C3AD2C00EF11E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4ACB15918C3AD2C00EF11E2;
+			remoteInfo = LoniMachine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4ACB15A18C3AD2C00EF11E2 /* LoniMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoniMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4ACB15D18C3AD2C00EF11E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4ACB15F18C3AD2C00EF11E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4ACB16118C3AD2D00EF11E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4ACB16518C3AD2D00EF11E2 /* LoniMachine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoniMachine-Info.plist"; sourceTree = "<group>"; };
+		F4ACB16718C3AD2D00EF11E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4ACB16918C3AD2D00EF11E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4ACB16B18C3AD2D00EF11E2 /* LoniMachine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoniMachine-Prefix.pch"; sourceTree = "<group>"; };
+		F4ACB16C18C3AD2D00EF11E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4ACB16D18C3AD2D00EF11E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4ACB17018C3AD2D00EF11E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4ACB17218C3AD2D00EF11E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4ACB17318C3AD2D00EF11E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4ACB17518C3AD2D00EF11E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4ACB17B18C3AD2D00EF11E2 /* LoniMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoniMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4ACB17C18C3AD2D00EF11E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F4ACB18418C3AD2D00EF11E2 /* LoniMachineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoniMachineTests-Info.plist"; sourceTree = "<group>"; };
+		F4ACB18618C3AD2D00EF11E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4ACB18818C3AD2D00EF11E2 /* LoniMachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoniMachineTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4ACB15718C3AD2C00EF11E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ACB16018C3AD2C00EF11E2 /* CoreGraphics.framework in Frameworks */,
+				F4ACB16218C3AD2D00EF11E2 /* UIKit.framework in Frameworks */,
+				F4ACB15E18C3AD2C00EF11E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4ACB17818C3AD2D00EF11E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ACB17D18C3AD2D00EF11E2 /* XCTest.framework in Frameworks */,
+				F4ACB17F18C3AD2D00EF11E2 /* UIKit.framework in Frameworks */,
+				F4ACB17E18C3AD2D00EF11E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4ACB15118C3AD2C00EF11E2 = {
+			isa = PBXGroup;
+			children = (
+				F4ACB16318C3AD2D00EF11E2 /* LoniMachine */,
+				F4ACB18218C3AD2D00EF11E2 /* LoniMachineTests */,
+				F4ACB15C18C3AD2C00EF11E2 /* Frameworks */,
+				F4ACB15B18C3AD2C00EF11E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4ACB15B18C3AD2C00EF11E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4ACB15A18C3AD2C00EF11E2 /* LoniMachine.app */,
+				F4ACB17B18C3AD2D00EF11E2 /* LoniMachineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4ACB15C18C3AD2C00EF11E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4ACB15D18C3AD2C00EF11E2 /* Foundation.framework */,
+				F4ACB15F18C3AD2C00EF11E2 /* CoreGraphics.framework */,
+				F4ACB16118C3AD2D00EF11E2 /* UIKit.framework */,
+				F4ACB17C18C3AD2D00EF11E2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4ACB16318C3AD2D00EF11E2 /* LoniMachine */ = {
+			isa = PBXGroup;
+			children = (
+				F4ACB16C18C3AD2D00EF11E2 /* AppDelegate.h */,
+				F4ACB16D18C3AD2D00EF11E2 /* AppDelegate.m */,
+				F4ACB16F18C3AD2D00EF11E2 /* Main.storyboard */,
+				F4ACB17218C3AD2D00EF11E2 /* ViewController.h */,
+				F4ACB17318C3AD2D00EF11E2 /* ViewController.m */,
+				F4ACB17518C3AD2D00EF11E2 /* Images.xcassets */,
+				F4ACB16418C3AD2D00EF11E2 /* Supporting Files */,
+			);
+			path = LoniMachine;
+			sourceTree = "<group>";
+		};
+		F4ACB16418C3AD2D00EF11E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4ACB16518C3AD2D00EF11E2 /* LoniMachine-Info.plist */,
+				F4ACB16618C3AD2D00EF11E2 /* InfoPlist.strings */,
+				F4ACB16918C3AD2D00EF11E2 /* main.m */,
+				F4ACB16B18C3AD2D00EF11E2 /* LoniMachine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4ACB18218C3AD2D00EF11E2 /* LoniMachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4ACB18818C3AD2D00EF11E2 /* LoniMachineTests.m */,
+				F4ACB18318C3AD2D00EF11E2 /* Supporting Files */,
+			);
+			path = LoniMachineTests;
+			sourceTree = "<group>";
+		};
+		F4ACB18318C3AD2D00EF11E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4ACB18418C3AD2D00EF11E2 /* LoniMachineTests-Info.plist */,
+				F4ACB18518C3AD2D00EF11E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4ACB15918C3AD2C00EF11E2 /* LoniMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4ACB18C18C3AD2D00EF11E2 /* Build configuration list for PBXNativeTarget "LoniMachine" */;
+			buildPhases = (
+				F4ACB15618C3AD2C00EF11E2 /* Sources */,
+				F4ACB15718C3AD2C00EF11E2 /* Frameworks */,
+				F4ACB15818C3AD2C00EF11E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoniMachine;
+			productName = LoniMachine;
+			productReference = F4ACB15A18C3AD2C00EF11E2 /* LoniMachine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4ACB17A18C3AD2D00EF11E2 /* LoniMachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4ACB18F18C3AD2D00EF11E2 /* Build configuration list for PBXNativeTarget "LoniMachineTests" */;
+			buildPhases = (
+				F4ACB17718C3AD2D00EF11E2 /* Sources */,
+				F4ACB17818C3AD2D00EF11E2 /* Frameworks */,
+				F4ACB17918C3AD2D00EF11E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4ACB18118C3AD2D00EF11E2 /* PBXTargetDependency */,
+			);
+			name = LoniMachineTests;
+			productName = LoniMachineTests;
+			productReference = F4ACB17B18C3AD2D00EF11E2 /* LoniMachineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4ACB15218C3AD2C00EF11E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "IR Works";
+				TargetAttributes = {
+					F4ACB17A18C3AD2D00EF11E2 = {
+						TestTargetID = F4ACB15918C3AD2C00EF11E2;
+					};
+				};
+			};
+			buildConfigurationList = F4ACB15518C3AD2C00EF11E2 /* Build configuration list for PBXProject "LoniMachine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4ACB15118C3AD2C00EF11E2;
+			productRefGroup = F4ACB15B18C3AD2C00EF11E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4ACB15918C3AD2C00EF11E2 /* LoniMachine */,
+				F4ACB17A18C3AD2D00EF11E2 /* LoniMachineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4ACB15818C3AD2C00EF11E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ACB17618C3AD2D00EF11E2 /* Images.xcassets in Resources */,
+				F4ACB16818C3AD2D00EF11E2 /* InfoPlist.strings in Resources */,
+				F4ACB17118C3AD2D00EF11E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4ACB17918C3AD2D00EF11E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ACB18718C3AD2D00EF11E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4ACB15618C3AD2C00EF11E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ACB17418C3AD2D00EF11E2 /* ViewController.m in Sources */,
+				F4ACB16E18C3AD2D00EF11E2 /* AppDelegate.m in Sources */,
+				F4ACB16A18C3AD2D00EF11E2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4ACB17718C3AD2D00EF11E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ACB18918C3AD2D00EF11E2 /* LoniMachineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4ACB18118C3AD2D00EF11E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4ACB15918C3AD2C00EF11E2 /* LoniMachine */;
+			targetProxy = F4ACB18018C3AD2D00EF11E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4ACB16618C3AD2D00EF11E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4ACB16718C3AD2D00EF11E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4ACB16F18C3AD2D00EF11E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4ACB17018C3AD2D00EF11E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4ACB18518C3AD2D00EF11E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4ACB18618C3AD2D00EF11E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4ACB18A18C3AD2D00EF11E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4ACB18B18C3AD2D00EF11E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4ACB18D18C3AD2D00EF11E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoniMachine/LoniMachine-Prefix.pch";
+				INFOPLIST_FILE = "LoniMachine/LoniMachine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4ACB18E18C3AD2D00EF11E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoniMachine/LoniMachine-Prefix.pch";
+				INFOPLIST_FILE = "LoniMachine/LoniMachine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F4ACB19018C3AD2D00EF11E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LoniMachine.app/LoniMachine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoniMachine/LoniMachine-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LoniMachineTests/LoniMachineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F4ACB19118C3AD2D00EF11E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LoniMachine.app/LoniMachine";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoniMachine/LoniMachine-Prefix.pch";
+				INFOPLIST_FILE = "LoniMachineTests/LoniMachineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4ACB15518C3AD2C00EF11E2 /* Build configuration list for PBXProject "LoniMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4ACB18A18C3AD2D00EF11E2 /* Debug */,
+				F4ACB18B18C3AD2D00EF11E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4ACB18C18C3AD2D00EF11E2 /* Build configuration list for PBXNativeTarget "LoniMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4ACB18D18C3AD2D00EF11E2 /* Debug */,
+				F4ACB18E18C3AD2D00EF11E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4ACB18F18C3AD2D00EF11E2 /* Build configuration list for PBXNativeTarget "LoniMachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4ACB19018C3AD2D00EF11E2 /* Debug */,
+				F4ACB19118C3AD2D00EF11E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4ACB15218C3AD2C00EF11E2 /* Project object */;
+}
