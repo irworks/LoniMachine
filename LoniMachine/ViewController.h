@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    NSMutableData *httpResponse;
+}
+@property (weak, nonatomic) IBOutlet UILabel *theQuote;
+@property (weak, nonatomic) IBOutlet UIButton *getNewQuote;
+- (IBAction)getTheQuote:(id)sender;
 
 @end
