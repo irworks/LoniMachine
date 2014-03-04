@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <Social/Social.h>
 
 @interface ViewController ()
 
@@ -82,5 +83,17 @@
     [getNewQuote setEnabled:NO];
     [getNewQuote setTitle:@"Lade..." forState:UIControlStateNormal];
     [self loadData];
+}
+
+- (IBAction)tweeet:(id)sender {
+    NSString *tweetStr = [theQuote text];
+    
+    if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter]) {
+        SLComposeViewController *tw = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+        NSString *tweet = [tweetStr stringByAppendingString:@" (via #LMforiOS)"];
+        [tw setInitialText:tweet];
+        [self presentViewController:tw animated:YES completion:nil];
+    }
+
 }
 @end

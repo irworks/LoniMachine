@@ -22,6 +22,7 @@
 		F4ACB18718C3AD2D00EF11E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4ACB18518C3AD2D00EF11E2 /* InfoPlist.strings */; };
 		F4ACB18918C3AD2D00EF11E2 /* LoniMachineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ACB18818C3AD2D00EF11E2 /* LoniMachineTests.m */; };
 		F4ACB19318C3ADCF00EF11E2 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F4ACB19218C3ADCF00EF11E2 /* bg.png */; };
+		F4C4E87B18C60E3200B3A739 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C4E87A18C60E3200B3A739 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		F4ACB18618C3AD2D00EF11E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F4ACB18818C3AD2D00EF11E2 /* LoniMachineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoniMachineTests.m; sourceTree = "<group>"; };
 		F4ACB19218C3ADCF00EF11E2 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		F4C4E87A18C60E3200B3A739 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4C4E87B18C60E3200B3A739 /* Social.framework in Frameworks */,
 				F4ACB16018C3AD2C00EF11E2 /* CoreGraphics.framework in Frameworks */,
 				F4ACB16218C3AD2D00EF11E2 /* UIKit.framework in Frameworks */,
 				F4ACB15E18C3AD2C00EF11E2 /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		F4ACB15C18C3AD2C00EF11E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F4C4E87A18C60E3200B3A739 /* Social.framework */,
 				F4ACB15D18C3AD2C00EF11E2 /* Foundation.framework */,
 				F4ACB15F18C3AD2C00EF11E2 /* CoreGraphics.framework */,
 				F4ACB16118C3AD2D00EF11E2 /* UIKit.framework */,

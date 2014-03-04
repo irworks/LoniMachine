@@ -14,5 +14,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *theQuote;
 @property (weak, nonatomic) IBOutlet UIButton *getNewQuote;
 - (IBAction)getTheQuote:(id)sender;
+- (IBAction)tweeet:(id)sender;
 
 @end
