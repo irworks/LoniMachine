@@ -26,7 +26,7 @@
 
 - (void)loadData {
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
-    NSURLRequest *theRequest=[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://slndrmn.square7.ch/lonimachine/api/get/"]
+    NSURLRequest *theRequest=[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://slndrmn.de/lonimachine/api/get/"]
                                               cachePolicy:NSURLRequestUseProtocolCachePolicy
                                           timeoutInterval:60.0];
     
